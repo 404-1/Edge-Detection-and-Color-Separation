@@ -71,10 +71,3 @@ img5(~mask_filter) = 0;     % Turn every part of the image that is not included 
 % img5 = medfilt3(img5, [3,3,3]);
 
 imshowpair(img, img5, 'montage')
-
-%% Credits
-% Photo by NewAfrica
-% https://st.depositphotos.com/16122460/53628/i/1600/depositphotos_536283692-stock-photo-modern-car-driving-school-test.jpg
-
-% Photo by Joshua 
-% https://www.pexels.com/photo/a-red-vintage-car-12147106/
