@@ -1,7 +1,7 @@
 %% import file
 clc, clearvars, close all
 
-file = 'cones.jpeg';
+file = 'joshua.jpg';
 img_raw = imread(file);
 
 clc, clearvars -except img_raw, close all
