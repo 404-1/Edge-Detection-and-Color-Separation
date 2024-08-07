@@ -53,7 +53,7 @@ This project explores the combined use of edge detection and color separation te
 ### Combining Edge Detection and Color Separation
 - **Mask Combination**: The edge mask and color mask are combined to produce a final output that highlights both edges and colors.
 
-- **Noise Reduction**: Techniques like morphological operations are applied to reduce noise introduced by combining both masks. You'll find out that I have this 
+- **Noise Reduction**: Techniques like morphological operations are applied to reduce noise introduced by combining both masks. You'll find out that at around line 68, this part of the code has been commented and this is because I don't think the noise reduction filter does a good job but it's there if you want to check it out and tweak it like I just did
 
 - **Result Analysis:** The final image is analyzed to extract useful information, such as license plate numbers or lane boundaries.
 
